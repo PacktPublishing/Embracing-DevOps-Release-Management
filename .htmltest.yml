@@ -1,4 +1,4 @@
-DirectoryPath: dist
+DirectoryPath: chapter07/dist
 IgnoreURLs:
 - "linkedin.com" # returns 999 https://stackoverflow.com/questions/46214017/public-linkedin-profile-url-returns-server-status-code-999/49856601
 - "hydn.dev" # too slow

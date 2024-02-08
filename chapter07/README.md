@@ -319,7 +319,7 @@ To complete this phase of the guide, you will need to ensure the following prere
         | **MY_ECR_REPOSITORY** | embracing-devops-release-management |
         | **MY_ECS_CLUSTER** | embracing-devops-release-management |
         | **MY_ECS_SERVICE** | embracing-devops-release-management |
-        | **MY_ECS_TASK_DEFINITION** | ./task-definition.json |
+        | **MY_ECS_TASK_DEFINITION** | ./chapter07/task-definition.json |
 
 
          > NOTE:
