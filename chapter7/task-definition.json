@@ -1,0 +1,30 @@
+{
+    "family": "embracing-devops-release-management",
+    "containerDefinitions": [
+        {
+            "name": "embracing-devops-release-management",
+            "image": "XXXXXXXXXXXX.dkr.ecr.us-east-1.amazonaws.com/web-app:d8422bb9bdb65d09c781ab00c2c93e934d912e1e",
+            "cpu": 0,
+            "portMappings": [
+                {
+                    "name": "web-app-80-tcp",
+                    "containerPort": 80,
+                    "hostPort": 80,
+                    "protocol": "tcp",
+                    "appProtocol": "http"
+                }
+            ],
+            "essential": true,
+            "environment": [],
+            "mountPoints": [],
+            "volumesFrom": []
+        }
+    ],
+    "executionRoleArn": "arn:aws:iam::XXXXXXXXXXXX:role/ecsTaskExecutionRole",
+    "networkMode": "awsvpc",
+    "requiresCompatibilities": [
+        "FARGATE"
+    ],
+    "cpu": "256",
+    "memory": "512"
+}
